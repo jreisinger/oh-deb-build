@@ -5,6 +5,7 @@ description
 ----------
 
 dummy
+dummy2
 
 <p>
 Creates deb package with supplied version. This is used mostly when
