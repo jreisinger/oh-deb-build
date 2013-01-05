@@ -3,6 +3,9 @@ oh-deb-build
 
 description
 ----------
+
+dummy
+
 <p>
 Creates deb package with supplied version. This is used mostly when
 packages are build automatically (when the build number is not known before
