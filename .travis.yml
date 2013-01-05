@@ -1,2 +1,2 @@
 script: "bash build $TRAVIS_BUILD_NUMBER"
-after_script: "PKG=`echo *.deb`;curl -u anonymous:123 -T $PKG ftp://prod.openhouse.sk/pub/"
+after_script: "PKG=`echo *.deb`;curl -u anonymous:123 -T $PKG ftp://prod.openhouse.sk/deb/"
