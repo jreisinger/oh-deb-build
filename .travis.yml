@@ -1,0 +1,2 @@
+script: "bash build $TRAVIS_BUILD_ID"
+after_script: "curl -u anonymous:123 -T test_1.0_all.deb ftp://prod.openhouse.sk/pub/"
